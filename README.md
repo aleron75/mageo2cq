@@ -1,2 +1,2 @@
-# magento-module-order_to_customer_quote
-Magento module to set order related quote as customer quote
+# Magento module: Order to Customer Quote
+Magento module to set order related quote as customer active quote
