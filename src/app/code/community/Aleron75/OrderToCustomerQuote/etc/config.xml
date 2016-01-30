@@ -2,15 +2,10 @@
 <config>
     <modules>
         <Aleron75_OrderToCustomerQuote>
-            <version>1.0.0</version>
+            <version>0.1.0</version>
         </Aleron75_OrderToCustomerQuote>
     </modules>
     <global>
-        <blocks>
-            <aleron75_ordertocustomerquote>
-                <class>Aleron75_OrderToCustomerQuote_Block</class>
-            </aleron75_ordertocustomerquote>
-        </blocks>
         <helpers>
             <aleron75_ordertocustomerquote>
                 <class>Aleron75_OrderToCustomerQuote_Helper</class>
@@ -22,4 +17,28 @@
             </aleron75_ordertocustomerquote>
         </models>
     </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <Aleron75_OrderToCustomerQuote after="Mage_Adminhtml">Aleron75_OrderToCustomerQuote</Aleron75_OrderToCustomerQuote>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+    <adminhtml>
+        <events>
+            <adminhtml_widget_container_html_before>
+                <observers>
+                    <aleron75_ordertocustomerquote>
+                        <type>singleton</type>
+                        <class>aleron75_ordertocustomerquote/observer</class>
+                        <method>addSetActiveQuoteButton</method>
+                    </aleron75_ordertocustomerquote>
+                </observers>
+            </adminhtml_widget_container_html_before>
+        </events>
+    </adminhtml>
 </config>
