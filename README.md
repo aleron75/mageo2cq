@@ -6,7 +6,7 @@ When you create an order for a specific customer in the Admin Panel, a not-activ
 
 You can add items in the order, change prices, apply coupons and so on; all these changes are saved to the not-active quote even if you don't submit the order.
 
-This extension adds a "Set as Customer Cart" button in the Admin Panel's "Create Order" view which allow you to set the current not-active quote as the current active quote for the customer you are creating the order for.
+This extension adds a "Set as Customer Cart" button in the Admin Panel's "Create Order" view which allows you to set the current not-active quote as the current active quote for the customer you are creating the order for.
 
 Pay attention: this action is not reversible: when the customer logs its old cart is replaced by the cart assembled by the store manager in the Admin Panel.
 
