@@ -46,7 +46,7 @@ or
 
     $ composer require aleron75/mageo2cq:dev-master
     
-Note: replace the `dev-master` with a tagged release as soon as it is available.
+Hint: replace the `dev-master` with a tagged release as soon as it is available.
 
 **Common tasks**
 
