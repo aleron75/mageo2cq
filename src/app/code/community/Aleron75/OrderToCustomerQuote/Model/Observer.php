@@ -1,7 +1,9 @@
 <?php
 class Aleron75_OrderToCustomerQuote_Model_Observer
 {
-
+    /**
+     * @event adminhtml_widget_container_html_before
+     */ 
     public function addSetActiveQuoteButton(Varien_Event_Observer $event)
     {
         $block = $event->getBlock();
