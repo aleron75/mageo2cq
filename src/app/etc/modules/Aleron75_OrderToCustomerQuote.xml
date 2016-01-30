@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Aleron75_OrderToCustomerQuote>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends></depends>
+        </Aleron75_OrderToCustomerQuote>
+    </modules>
+</config>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Aleron75_OrderToCustomerQuote>
+            <version>1.0.0</version>
+        </Aleron75_OrderToCustomerQuote>
+    </modules>
+    <global>
+        <blocks>
+            <aleron75_ordertocustomerquote>
+                <class>Aleron75_OrderToCustomerQuote_Block</class>
+            </aleron75_ordertocustomerquote>
+        </blocks>
+        <helpers>
+            <aleron75_ordertocustomerquote>
+                <class>Aleron75_OrderToCustomerQuote_Helper</class>
+            </aleron75_ordertocustomerquote>
+        </helpers>
+        <models>
+            <aleron75_ordertocustomerquote>
+                <class>Aleron75_OrderToCustomerQuote_Model</class>
+            </aleron75_ordertocustomerquote>
+        </models>
+    </global>
+</config>

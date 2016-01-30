@@ -1,0 +1,15 @@
+{
+    "name": "Aleron75/OrderToCustomerQuote",
+    "license": "OSL-3.0",
+    "type": "magento-module",
+    "description": "Magento module to set order related quote as customer quote",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name":"Alessandro Ronchi",
+            "email":"aleron75@gmail.com"
+        }
+    ]
+}
