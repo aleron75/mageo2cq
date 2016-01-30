@@ -1,5 +1,5 @@
 {
-    "name": "Aleron75/OrderToCustomerQuote",
+    "name": "aleron75/mageo2cq",
     "license": "OSL-3.0",
     "type": "magento-module",
     "description": "Magento module to set order related quote as customer quote",
