@@ -54,3 +54,8 @@ After installation:
 
 * if you have **cache** enabled, disable or refresh it;
 * if you have **compilation** enabled, disable it or recompile the code base.
+
+## Closing words
+This extension is published under the [Open Software License (OSL 3.0)](http://opensource.org/licenses/OSL-3.0).
+
+Any contribution or feedback is extremely appreciated.
